@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -16,6 +16,7 @@
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .nav {
@@ -35,10 +36,11 @@
   list-style-type: none;
   margin: 8px 0 0;
   column-gap: 20px;
+  padding: 0;
 }
 
 .nav__link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -64,7 +66,7 @@
 }
 
 .header__image {
-  z-index: 1;
+  z-index: -1;
   max-width: 636px;
   position: absolute;
   top: 135px;
@@ -237,7 +239,7 @@
 
 .staff {
   padding: 100px 0 140px;
-  background-image: url(/images/staff_picks_background.jpg);
+  background-image: url(../images/staff_picks_background.jpg);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -297,7 +299,7 @@
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
-  overflow: hidden;
+  overflow: auto;
   text-overflow: ellipsis;
 }
 
@@ -471,5 +473,5 @@
 }
 
 .footer__copyright {
-  margin: 100px 0 0;
+  margin: 108px 0 0;
 }
