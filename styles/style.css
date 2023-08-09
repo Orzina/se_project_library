@@ -470,14 +470,6 @@
   margin-right: 6px;
 }
 
-.footer__social-icon_facebook {
-  background-image: url("/images/facebook_white.svg");
-}
-
-.footer__social-icon_instagram {
-  background-image: url("/images/instagram_white.svg");
-}
-
 .footer__copyright {
   margin: 100px 0 0;
 }
